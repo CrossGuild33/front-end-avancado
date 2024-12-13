@@ -7,8 +7,6 @@ import Home from "./pages/home.js";
 import Shop from "./pages/shop.js";
 import About from "./pages/About.js";
 
-//components
-import Header from "./components/Header.js";
 
 function App() {
   return (
