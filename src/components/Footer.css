@@ -1,0 +1,43 @@
+.footer{
+	position: relative;
+	display:contents;
+	top: 70px;
+}
+
+.footer-container{
+display: block;
+width: 100%;
+background-color: invisible;
+color: white;
+text-align: center;
+padding: 20px 0;
+position: relative;
+}
+
+.footer-menu{
+	display: inline-flex;
+	gap: 10px;
+	color: black;
+	background-color: #d4d4d4
+
+}
+
+/*.footer-menu h4:nth-child(3) {
+	position: relative;
+	background-color: blue;
+
+} */
+
+
+.footer-copyright {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: invisible;
+	color: black;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.2rem;
+  }

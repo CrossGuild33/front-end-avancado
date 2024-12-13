@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Blusa de manga longa",
+      "price": 42.9,
+      "id": "1"
+    },
+    {
+      "name": "Calça jeans",
+      "price": 55,
+      "id": "2"
+    },
+    {
+      "id": "6d1a",
+      "name": "Creme da Avon",
+      "price": "18.00"
+    },
+    {
+      "id": "b9b7",
+      "name": "Bermuda",
+      "price": "20"
+    }
+  ]
+}

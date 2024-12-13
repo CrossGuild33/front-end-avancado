@@ -1,0 +1,62 @@
+.sobre {
+    position:static;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.balloon {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.balloon h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.balloon:hover {
+    background-color: #e0e0e0;
+    /*transform: scale(1.05); */
+}
+
+.sobre__painel {
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-wrap: normal; 
+}
+
+.sobre__painel__img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.elementos {
+    text-align: center;
+}
+
+.elementos h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.elementos p {
+    font-size: 1rem;
+    color: #555;
+}

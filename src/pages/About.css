@@ -1,0 +1,64 @@
+/* Overall Page */
+.about-page {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Balloon Section */
+.balloon {
+    position: absolute;
+    top: -20px; /* Adjust to match placement near the header */
+    left: -30%;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 100px; /* Space below the header and balloon */
+}
+
+/* Content Boxes */
+.box {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    width: 45%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+    max-width: 230px;
+}
+
+
+.image-box {
+    background-position: center;
+    background-size:contain;
+    background-image: url("../assets/indio.jpg");
+    background-repeat: no-repeat;    
+}
+
+
