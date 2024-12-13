@@ -1,0 +1,25 @@
+nav {
+    display: block;
+    justify-content: center;
+    width: 500px;
+    
+}
+
+nav li{
+    margin: 0 10px;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background: #ccc;
+}
+
+
+.logo{
+    float: left;
+    height:20px;
+    width: 20px;
+}
+
