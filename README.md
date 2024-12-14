@@ -16,3 +16,9 @@ _____
 
 https://www.figma.com/design/RzE7YC1DqnHcpL1JajF4XV/MVP-Front-end-Avan%C3%A7ado?node-id=0-1&t=T6G1vWqB1yGCEzVy-1
 
+## Como instalar e configurar o Git
+
+1.Baixe o instalador em: https://git-scm.com/ e execute o .exe.
+
+2.Após instalar, configure seu nome de usuário e e-mail para identificação em commits: `git config --global user.name "Seu Nome"`  e `git config --global user.email "seuemail@example.com"`
+
